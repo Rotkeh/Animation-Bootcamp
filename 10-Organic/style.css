@@ -1,0 +1,172 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+}
+
+main {
+    height: 700px;
+    width: 700px;
+    position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: snurra-runt-lite-coolt 15s linear infinite;
+}
+
+@keyframes snurra-runt-lite-coolt {
+    0% {
+        transform: rotateX(0);
+    }
+    
+    100% {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
+
+aside {
+    border: 3px dotted white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+@keyframes wave{
+    0% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translateZ(-50px);
+    }
+    50% {
+        transform: translateZ(0);
+    }
+    75% {
+        transform: translateZ(50px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+aside:nth-of-type(1) {
+    height: 110%;
+    width: 110%;
+    animation: wave 5s linear infinite;
+}
+aside:nth-of-type(2) {
+    height: 105%;
+    width: 105%;
+    animation: wave 5s linear infinite;
+    animation-delay: 250ms;
+}
+aside:nth-of-type(3) {
+    height: 100%;
+    width: 100%;
+    animation: wave 5s linear infinite;
+    animation-delay: 500ms;
+}
+aside:nth-of-type(4) {
+    height: 95%;
+    width: 95%;
+    animation: wave 5s linear infinite;
+    animation-delay: 750ms;
+}
+aside:nth-of-type(5) {
+    height: 90%;
+    width: 90%;
+    animation: wave 5s linear infinite;
+    animation-delay: 1000ms;
+}
+aside:nth-of-type(6) {
+    height: 85%;
+    width: 85%;
+    animation: wave 5s linear infinite;
+    animation-delay: 1250ms;
+}
+aside:nth-of-type(7) {
+    height: 80%;
+    width: 80%;
+    animation: wave 5s linear infinite;
+    animation-delay: 1500ms;
+}
+aside:nth-of-type(8) {
+    height: 75%;
+    width: 75%;
+    animation: wave 5s linear infinite;
+    animation-delay: 1750ms;
+}
+aside:nth-of-type(9) {
+    height: 70%;
+    width: 70%;
+    animation: wave 5s linear infinite;
+    animation-delay: 2000ms;
+}
+aside:nth-of-type(10) {
+    height: 65%;
+    width: 65%;
+    animation: wave 5s linear infinite;
+    animation-delay: 2250ms;
+}
+aside:nth-of-type(11) {
+    height: 60%;
+    width: 60%;
+    animation: wave 5s linear infinite;
+    animation-delay: 2500ms;
+}
+aside:nth-of-type(12) {
+    height: 55%;
+    width: 55%;
+    animation: wave 5s linear infinite;
+    animation-delay: 2750ms;
+}
+aside:nth-of-type(13) {
+    height: 50%;
+    width: 50%;
+    animation: wave 5s linear infinite;
+    animation-delay: 3000ms;
+}
+aside:nth-of-type(14) {
+    height: 45%;
+    width: 45%;
+    animation: wave 5s linear infinite;
+    animation-delay: 3250ms;
+}
+aside:nth-of-type(15) {
+    height: 40%;
+    width: 40%;
+    animation: wave 5s linear infinite;
+    animation-delay: 3500ms;
+}
+aside:nth-of-type(16) {
+    height: 35%;
+    width: 35%;
+    animation: wave 5s linear infinite;
+    animation-delay: 3750ms;
+}
+aside:nth-of-type(17) {
+    height: 30%;
+    width: 30%;
+    animation: wave 5s linear infinite;
+    animation-delay: 4000ms;
+}
+aside:nth-of-type(18) {
+    height: 25%;
+    width: 25%;
+    animation: wave 5s linear infinite;
+    animation-delay: 4250ms;
+}
+aside:nth-of-type(19) {
+    height: 20%;
+    width: 20%;
+    animation: wave 5s linear infinite;
+    animation-delay: 4500ms;
+}
+aside:nth-of-type(20) {
+    height: 15%;
+    width: 15%;
+    animation: wave 5s linear infinite;
+    animation-delay: 4750ms;
+}
