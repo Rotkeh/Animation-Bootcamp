@@ -1,0 +1,57 @@
+body {
+    background-image: url(./background.jpg);
+    overflow: hidden;
+    margin-top: 50%;
+    position: relative;
+}
+
+p, h1 {
+    color: yellow;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+p {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+h1, img, .episode {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    perspective: 50px;
+}
+
+section {
+    line-height: 7rem;
+    position: absolute;
+    animation: scroll 15s linear forwards;
+    text-align: justify;
+    transform-origin: 50% 100%;
+}
+
+@keyframes scroll {
+    from {
+        top: 0;
+        transform: translateZ(0) rotateX(1deg);
+    }
+    to {
+        top: -3000px;
+        transform: translateZ(-30px) rotateX(2deg);
+    }
+}
